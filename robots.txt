@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Impressum und Datenschutz tragen <meta name="robots" content="noindex,follow">.
+# Sie werden bewusst NICHT per Disallow gesperrt, damit Crawler das noindex lesen koennen.
+
+Sitemap: https://guenstigster-cfd-broker.de/sitemap.xml
+
+# LLM Navigation
+# llms.txt: https://guenstigster-cfd-broker.de/llms.txt
+# Content Markdown: https://guenstigster-cfd-broker.de/content.md

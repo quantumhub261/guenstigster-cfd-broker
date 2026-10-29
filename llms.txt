@@ -1,0 +1,58 @@
+# CFD Broker Vergleich — LLM Navigation
+
+## Über diese Website
+Unabhängiges deutschsprachiges Vergleichsportal für CFD-Broker.
+Zielmarkt: Deutschland. Thema: Günstigster CFD Broker 2026.
+Sprache: Deutsch. Stand: Januar 2026.
+
+## Zweck der Hauptseite
+index.html vergleicht CFD-Broker nach Kosten (Spread, Kommission, Swap),
+BaFin-Regulierung und Demokonto-Verfügbarkeit für den deutschen
+Retail-Trader-Markt. Enthält einen interaktiven CFD-Kostenrechner sowie
+Live-Marktdaten (EUR/USD via Frankfurter API, BTC via CoinGecko).
+
+## Kernthemen
+- Total Cost of Trading (Spread + Kommission + Swap × Haltedauer)
+- Kostenstruktur: Spread ca. 45 %, Swap ca. 30 %, Kommission ca. 15 %, Nebengebühren ca. 10 %
+- Versteckte Kosten: Inaktivitätsgebühr, Depotführung, Währungsumrechnung, Slippage
+- Swap-Typen: Long-Swap, Short-Swap, Triple-Swap, Rohstoff-Roll
+- BaFin / ESMA Regulierungshierarchie
+- Market Maker vs. STP vs. ECN Broker-Modelle
+- Nachschusspflicht-Verbot (ESMA 2018)
+- Margin-Close-Out bei 50 % der ursprünglichen Margin
+- Einlagensicherung EdW (Entschädigungseinrichtung der Wertpapierhandelsunternehmen) bis 20.000 €
+- ESMA-Hebellimits: 1:30 Forex · 1:20 Indizes · 1:10 Rohstoffe · 1:5 Aktien · 1:2 Krypto
+- § 20 Abs. 6 EStG — Termingeschäfte-Verlusttopf, Verrechnungsgrenze 20.000 €/Jahr
+- CFD vs. ETF: Eigentum, Hebel, Kostenverlauf, Besteuerung
+- CFD Demokonto ohne Mindesteinzahlung
+
+## Regulierungshierarchie
+ESMA (EU) → BaFin (DE) / CySEC (Zypern, EU-Pass) → CFD-Broker → Retail-Kunde
+
+## Seitenstruktur
+- / (index.html) — Pillar Landing Page → /content.md
+- /risikohinweis.html — Vollständiger Risikohinweis
+- /methodik.html — Bewertungsmethodik und Datenquellen
+- /redaktion.html — Autoren und Expert Reviewer
+- /quellen.html — Alle Primärquellen mit Prüfdatum
+- /kontakt.html — Redaktioneller Kontakt und Fehlermeldung
+- /impressum.html — § 5 TMG
+- /datenschutz.html — DSGVO und Affiliate-Offenlegung
+
+## Markdown-Version der Hauptseite
+URL: /content.md
+Enthält: H1–H3, FAQ, Tabellen, Kostenstruktur, Regulierungshierarchie
+und CTA-Texte — ohne HTML, CSS oder JavaScript.
+
+## Redaktion
+Autor: Marcus Weber, Finanzredakteur (Schwerpunkt CFD, Derivate, Regulierung DE)
+Reviewer: Dr. Sabine Hoffmann, CFA® Charterholder
+Letzte fachliche Prüfung: Januar 2026
+
+## Compliance
+- Alle Inhalte: rein informativ, keine Anlageberatung
+- ESMA-Gesamtverlustkennzahl 65–80 % prominent ausgewiesen
+- Risikohinweise in Einleitung und allen kostenrelevanten Abschnitten
+- Alle Kostenangaben als brokerabhängig qualifiziert
+- Einlagensicherung korrekt bezeichnet: EdW (nicht EdB), bis 20.000 €
+- Kommerzielle Links transparent als Affiliate-Links offengelegt
